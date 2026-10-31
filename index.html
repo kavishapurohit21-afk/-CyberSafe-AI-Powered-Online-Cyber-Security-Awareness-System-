@@ -1,0 +1,150 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CyberSafe - Online Security Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h2>🛡️ CyberSafe</h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#learn">Learn</a>
+        <a href="#tools">Security Tools</a>
+        <a href="#chatbot">Chatbot</a>
+    </nav>
+</header>
+
+<!-- HOME SECTION -->
+<section class="hero" id="home">
+    <h1>Stay Safe in the Digital World</h1>
+    <p>
+        Learn Cyber Security and protect your
+        personal information from online threats.
+    </p>
+    <a href="#learn" class="btn">Explore Security</a>
+</section>
+
+<!-- AWARENESS SECTION -->
+<section id="learn">
+    <h2>Cyber Security Awareness</h2>
+
+    <div class="cards">
+        <div class="card">
+            <h3>🎣 Phishing</h3>
+            <p>
+                Phishing is a cyber attack in which
+                fake messages or websites are used
+                to steal personal information.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🦠 Malware</h3>
+            <p>
+                Malware is malicious software that
+                can damage devices or steal data.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🔐 Password Security</h3>
+            <p>
+                Always use strong and unique
+                passwords to protect your accounts.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🕵️ Online Fraud</h3>
+            <p>
+                Avoid suspicious links and never
+                share your OTP or banking details.
+            </p>
+        </div>
+    </div>
+</section>
+
+<!-- SECURITY TOOLS -->
+<section id="tools">
+    <h2>Security Tools</h2>
+
+    <div class="tool">
+        <h3>Password Strength Checker</h3>
+
+        <input type="password" id="password"
+        placeholder="Enter sample password">
+
+        <button onclick="checkPassword()">
+            Check Password
+        </button>
+
+        <p id="passwordResult"></p>
+    </div>
+
+    <div class="tool">
+        <h3>Phishing URL Checker</h3>
+
+        <input type="text" id="url"
+        placeholder="Enter website URL">
+
+        <button onclick="checkURL()">
+            Analyze URL
+        </button>
+
+        <p id="urlResult"></p>
+    </div>
+</section>
+
+<!-- CHATBOT -->
+<section id="chatbot">
+    <h2>CyberSafe AI Chatbot</h2>
+
+    <div class="chatbox">
+
+        <div id="chatMessages" class="messages">
+            <div class="bot">
+                Hello! I am CyberBot.
+                Ask me any Cyber Security question.
+            </div>
+        </div>
+
+        <div class="chat-input">
+            <input type="text" id="userInput"
+            placeholder="Ask your question...">
+
+            <button onclick="sendMessage()">
+                Send
+            </button>
+        </div>
+
+    </div>
+</section>
+
+<!-- SECURITY TIPS -->
+<section id="tips">
+    <h2>Online Safety Tips</h2>
+
+    <div class="tips">
+        <p>✔ Use strong and unique passwords.</p>
+        <p>✔ Never share your OTP with anyone.</p>
+        <p>✔ Avoid clicking suspicious links.</p>
+        <p>✔ Enable Two-Factor Authentication.</p>
+        <p>✔ Keep your software updated.</p>
+    </div>
+</section>
+
+<footer>
+    <h3>🛡️ CyberSafe</h3>
+    <p>Learn • Protect • Stay Safe</p>
+    <p>Cyber Security Awareness Project</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
